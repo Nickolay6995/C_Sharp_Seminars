@@ -17,5 +17,5 @@ for (long i = 1; i < array.Length; i++)
 }
 
 Console.Write($"[");
-Console.Write(string.Join(",", array));
+Console.Write(string.Join(", ", array));
 Console.Write($"]");
