@@ -13,7 +13,7 @@ Random rnd = new Random();
 
 for (long i = 1; i < array.Length; i++)
 {
-    array[i] = new Random().Next(1, 9);
+    array[i] = new Random().Next(1, 9); // так делать в цикле не надо делать
 }
 
 Console.Write($"[");
