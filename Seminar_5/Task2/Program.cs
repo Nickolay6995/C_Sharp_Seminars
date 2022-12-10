@@ -13,7 +13,7 @@ int[] InitArray(int length)
     Random rnd = new Random();
     for (int i = 0; i < length; i++)
     {
-        array[i] = rnd.Next(-1000, 1000);
+        array[i] = rnd.Next(-100, 100);
     }
 
     return array;
